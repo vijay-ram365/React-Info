@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  height: 100px;
+  padding: 30px 25px;
+}
+
+.nav-logo {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.nav-title {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.nav-subtitle {
+  color: #deebf8;
+  letter-spacing: 1px;
+}
+
+.main-content {
+  background-color: #282d35;
+  background-image: url("./Components/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 201px);
+}
+.main-content-title {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  padding-top: 1em;
+  margin-right: 5em;
+  margin-left: 0.5em;
+}
+
+.main-content-ul {
+  margin-left: 2em;
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+.main-content-ul li {
+  padding: 0.5em;
+  margin-left: 2em;
+}
+
+.main-content-ul > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #21222a;
+  height: 100%;
+  padding: 3em;
+  color: #c1c1c1;
+  font-size: 0.7rem;
+  font-style: italic;
+}
