@@ -1,3 +1,5 @@
+First React project, React Facts, was inspired by Scrimba with style changes made. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
